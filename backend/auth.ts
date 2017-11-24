@@ -7,7 +7,7 @@ export const handleAuthentication = (req: Request, resp: Response) => {
         resp.json({
             name: dbUser.name,
             email: dbUser.email
-        })
+        })    
     } else {
         resp.status(403).json({ message: 'Dados inválidos' })
     }
