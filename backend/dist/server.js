@@ -2,7 +2,7 @@
 exports.__esModule = true;
 var jsonServer = require("json-server");
 var fs = require("fs");
-var https = require("https");  
+var https = require("https");
 var auth_1 = require("./auth");
 var server = jsonServer.create();
 var router = jsonServer.router('db.json');
